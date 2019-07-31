@@ -61,7 +61,6 @@ function initAd(){
   if (interAd == '1') {
    // alert('induestrial true');
     localStorage.setItem("interAdshown",'0');
-    prepareInterstitialAd();
     //video modal
     var openVideoModelId =  localStorage.getItem("openVideoModelId");
 //run video player
@@ -117,6 +116,7 @@ function initAd(){
 
 
        }
+prepareInterstitialAd();
   }
     
     });
@@ -130,7 +130,6 @@ function initAd(){
     var interAd =   localStorage.getItem("interAdshown");
   if (interAd == '1') {
    // alert('induestrial true');
-   prepareInterstitialAd();
     localStorage.setItem("interAdshown",'0');
     //video modal
     var openVideoModelId =  localStorage.getItem("openVideoModelId");
@@ -196,7 +195,6 @@ $(document).on('resume', function(){
 
   var interAd =   localStorage.getItem("interAdshown");
   if (interAd == '1') {
-    prepareInterstitialAd();
    // alert('induestrial true');
     localStorage.setItem("interAdshown",'0');
     //video modal
@@ -254,7 +252,7 @@ $(document).on('resume', function(){
 
 
        }
-
+prepareInterstitialAd();
   }
  
     });
