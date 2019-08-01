@@ -56,12 +56,10 @@ function initAd(){
     $(document).on('onAdFailLoad', function(e){
       // when jquery used, it will hijack the event, so we have to get data from original event
     // adType: 'banner', 'interstitial', etc.
-
+alert('onAdFailLoad');
      var interAd =   localStorage.getItem("interAdshown");
-  if (interAd == '1') {
-   // alert('induestrial true');
+      if (interAd == '1') {
     localStorage.setItem("interAdshown",'0');
-    prepareInterstitialAd();
     //video modal
     var openVideoModelId =  localStorage.getItem("openVideoModelId");
 //run video player
@@ -117,20 +115,21 @@ function initAd(){
 
 
        }
+     // prepareInterstitialAd();
   }
     
     });
     $(document).on('onAdPresent', function(e){
-
+        alert('on ad onAdPresent');
     });
     $(document).on('onAdLeaveApp', function(e){
    });
     
   $(document).on('onAdDismiss', function(e){
+    alert('on ad dismiss');
     var interAd =   localStorage.getItem("interAdshown");
   if (interAd == '1') {
    // alert('induestrial true');
-   prepareInterstitialAd();
     localStorage.setItem("interAdshown",'0');
     //video modal
     var openVideoModelId =  localStorage.getItem("openVideoModelId");
@@ -192,12 +191,9 @@ function initAd(){
   }
   });
 $(document).on('resume', function(){
-  //alert('onresume');
-
-  var interAd =   localStorage.getItem("interAdshown");
+  alert('onresume');
+var interAd =   localStorage.getItem("interAdshown");
   if (interAd == '1') {
-    prepareInterstitialAd();
-   // alert('induestrial true');
     localStorage.setItem("interAdshown",'0');
     //video modal
     var openVideoModelId =  localStorage.getItem("openVideoModelId");
@@ -254,7 +250,11 @@ $(document).on('resume', function(){
 
 
        }
-
+      prepareInterstitialAd();
+  }
+  else
+  {
+    alert('interstitial false resume')
   }
  
     });
@@ -332,6 +332,7 @@ $(document).on('resume', function(){
       autoShow: false,
     isTesting: false // TODO: remove this line when release
   });
+    alert('prepareInterstitial called');
   }
 
   function initAdmobWithoutBanner() {
