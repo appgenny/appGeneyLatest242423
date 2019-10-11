@@ -1,0 +1,1 @@
+function openLink(e){var t=(100+100*localStorage.getItem("counterAds"))/100;localStorage.setItem("counterAds",t);var n=$(e).attr("webLink");window.open(n,"_blank")}
