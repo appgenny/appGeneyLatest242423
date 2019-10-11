@@ -1,1 +1,42 @@
-var functionService={getallFunctions:function(e=""){if(""==e||null==e)cordova.getAppVersion.getPackageName(function(e){var t=JSON.parse(localStorage.getItem("item")),a=JSON.parse(localStorage.getItem("replacePackage"));if(null!=t&&""!=t&&0!=t.length||(appSettings.getApplicationSetting(e),t=JSON.parse(localStorage.getItem("item")),a=JSON.parse(localStorage.getItem("replacePackage"))),""==a||null==a)appSettings.getApplicationSetting(e),sliderSettings.getApplicationCarousel(e),getAllPost(t[0],e),featuredAppModel(e);else{var l=a.replace_package;appSettings.getApplicationSetting(l),sliderSettings.getApplicationCarousel(l),getAllPost(t[0],l),featuredAppModel(l)}});else{var t=JSON.parse(localStorage.getItem("item")),a=JSON.parse(localStorage.getItem("replacePackage"));null!=t&&""!=t&&0!=t.length||(appSettings.getApplicationSetting(e),t=JSON.parse(localStorage.getItem("item")),a=JSON.parse(localStorage.getItem("replacePackage")));var l=a.replace_package;""==l||null==l?(appSettings.getApplicationSetting(e),sliderSettings.getApplicationCarousel(e),getAllPost(t[0],e),featuredAppModel(e)):(appSettings.getApplicationSetting(l),sliderSettings.getApplicationCarousel(l),getAllPost(t[0],l),featuredAppModel(l))}},functionrequestduringIntervel:function(e=""){if(""==e||null==e)cordova.getAppVersion.getPackageName(function(e){var t=JSON.parse(localStorage.getItem("item")),a=JSON.parse(localStorage.getItem("replacePackage"));null!=t&&""!=t&&0!=t.length||(appSettingInterval(e),t=JSON.parse(localStorage.getItem("item")),a=JSON.parse(localStorage.getItem("replacePackage")));var l=a.replace_package;""==l||null==l?(appSettingInterval(e),getAllPost(t[0],e),featuredAppModel(e)):(appSettingInterval(l),getAllPost(t[0],l),featuredAppModel(l))});else{var t=JSON.parse(localStorage.getItem("item")),a=JSON.parse(localStorage.getItem("replacePackage"));null!=t&&""!=t&&0!=t.length||(appSettingInterval(e),t=JSON.parse(localStorage.getItem("item")),a=JSON.parse(localStorage.getItem("replacePackage")));var l=a.replace_package;""==l||null==l?(appSettingInterval(e),getAllPost(t[0],e),featuredAppModel(e)):(appSettingInterval(l),getAllPost(t[0],l),featuredAppModel(l))}}};
+var functionService = (function(){
+    return {
+        getallFunctions: function (package_name) {
+            
+            appSettings.getApplicationSetting(package_name);
+            var response=JSON.parse((localStorage.getItem("item")));
+            var replacePkg = JSON.parse((localStorage.getItem("replacePackage")));
+            
+            if(response == null || response == '' || response.length == 0)
+            {
+                appSettings.getApplicationSetting(package_name);
+                response=JSON.parse((localStorage.getItem("item")));
+                replacePkg = JSON.parse((localStorage.getItem("replacePackage")));
+                getAllPost('s4', package_name);
+            }
+            else 
+            {
+
+            var getReplacePackage = replacePkg.replace_package;
+            if(getReplacePackage == '' ||  getReplacePackage == null)
+            {
+                  sliderSettings.getApplicationCarousel(package_name);
+                getAllPost(response[0], package_name);
+                featuredAppModel(package_name);
+            }
+            else
+            {
+                sliderSettings.getApplicationCarousel(getReplacePackage);
+                getAllPost(response[0], getReplacePackage);
+                featuredAppModel(getReplacePackage);
+
+            }
+
+            }
+
+            
+
+        },
+        
+    }
+
+}());

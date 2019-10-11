@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?> 
-<widget id="com.timesvideo.rafioldsongs" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
-<name>Rafi Old Songs</name> 
+<widget id="com.puretune.bhojpurihotvideos" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
+<name>Bhojpuri Hot Videos PT</name> 
  <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author> 
  <icon src="www/img/icon.png" /> 
  <content src="index.html" /> 
@@ -30,19 +30,20 @@
 <allow-intent href="itms-apps:*" /></platform> 
 <preference name="android-minSdkVersion" value="15" /> 
 <preference name="android-maxSdkVersion" value="28" /> 
-<preference name="android-targetSdkVersion" value="26" /> 
+<preference name="android-targetSdkVersion" value="28" /> 
 <preference name="android-build-tool" value="gradle" /> 
 <preference name="StatusBarOverlaysWebView" value="true" /> 
-<preference name="postRows" value="4" />  
-<preference name="onesignal" value="2cef753e-55f3-4f86-be0a-0cd701006101" />
-<preference name="admobBannerId" value="ca-app-pub-8633669327040391/5463422359" />
-<preference name="admobInterstitialId" value="ca-app-pub-8633669327040391/5838826871" />
-<preference name="admobAppId" value="ca-app-pub-8633669327040391~8693001170" />
+<preference name="postRows" value="3" />  
+<preference name="onesignal" value="58cf1e0f-765a-426e-a07a-9c4735ce8b05" />
+<preference name="admobBannerId" value="ca-app-pub-2712145761453335/8490260154" />
+<preference name="admobInterstitialId" value="ca-app-pub-2712145761453335/5480953432" />
+<preference name="admobAppId" value="ca-app-pub-2712145761453335~7694400848" />
 <preference name="SplashScreenDelay" value="4000" /> 
 <preference name="SplashMaintainAspectRatio" value="true" /> 
 <preference name="ShowSplashScreenSpinner" value="false" /> 
 <preference name="FadeSplashScreenDuration" value="400" /> 
-<preference name="SplashScreenBackgroundColor" value="white" /> 
+<preference name="SplashScreenBackgroundColor" value="white" />
+<preference name="loadUrlTimeoutValue" value="70000" /> 
 <engine name="android" spec="^7.1.1" /> 
 <engine name="ios" spec="^4.5.5" /> 
 <plugin name="cordova-plugin-splashscreen" spec="^5.0.2" /> 

@@ -6,6 +6,9 @@ var utility = (function() {
      get_application_setting: "GetApplicationSetting/PakegName?pakgeName=",
      get_feature_App: "GetFeatureApp/PakegName?pakgeName=",
      get_app_slider: "GetAppSlider/PakegName?pakgeName=",
+     get_all_post_intervel: function(packageName , startIndex=0 , lastIndex=10) {
+        return "GetVideo/getPosts?pakgeName="+packageName+"&startIndex="+startIndex+"&lastIndex="+lastIndex;
+     },
      get_all_post: "GetVideo/getAllPost?pakgeName=",
      get_post_description: "GetPostDiscraption/postId?postId=",
      get_wallpaper: "GetWallPaper/PakegName?pakgeName=",

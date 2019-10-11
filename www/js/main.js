@@ -18,16 +18,13 @@ function mainarea()
 		localStorage.setItem("interAdshown",'0');
 		localStorage.setItem("runVideoPlayers",'0');
 		localStorage.setItem("counterAds",'0');
-		
-
-		//all function load
 		cordova.getAppVersion.getPackageName(function(pkgname) {
 		functionService.getallFunctions(pkgname);
 	    });
 		//allfunctions load
 		StatusBar.show();
 		$('.my_lazy_loader').removeClass( "hide" );
-	     // setInterval(function(){ ajaxContinuesly();  }, 6000);
+    // setInterval(function(){ ajaxContinuesly();  }, 7000);
 }
 }
 
@@ -49,8 +46,8 @@ function ajaxContinuesly()
 	}
 	else 
 	{
-			cordova.getAppVersion.getPackageName(function(pkgname) {
-		functionService.functionrequestduringIntervel();
+		cordova.getAppVersion.getPackageName(function(pkgname) {
+		functionService.functionrequestduringIntervel(pkgname);
 	});
 		
 	}

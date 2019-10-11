@@ -1,1 +1,0 @@
-var request={ajaxSettings:function(e,n,a){return{async:!0,crossDomain:!0,url:a+e+n,method:"GET",headers:{"Cache-Control":"no-cache","Postman-Token":"03ce7257-9417-4006-963b-030143c6cdfe"}}}};

@@ -1,9 +1,9 @@
 {
   "background_color": "#FFF",
   "display": "standalone",
-  "name": "Filmi Gaane Old",
-  "short_name": "Filmi Gaane Old",
-  "version": "com.timevideos.hindioldsongs",
+  "name": "Hindi Hot songs",
+  "short_name": "Hindi Hot songs",
+  "version": "com.timesvideo.anuradhapaudwalsongs",
   "author": "umar draz",
   "icons": [
     {
