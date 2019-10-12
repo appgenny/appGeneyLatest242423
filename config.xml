@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?> 
-<widget id="com.puretune.bhojpurihotvideos" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
-<name>Bhojpuri Hot Videos PT</name> 
+<widget id="com.puretunes.rajeshkhanna_dilipkumar" version="1.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"> 
+<name>Free Old Hindi Songs PT</name> 
  <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author> 
  <icon src="www/img/icon.png" /> 
  <content src="index.html" /> 
@@ -34,15 +34,15 @@
 <preference name="android-build-tool" value="gradle" /> 
 <preference name="StatusBarOverlaysWebView" value="true" /> 
 <preference name="postRows" value="3" />  
-<preference name="onesignal" value="58cf1e0f-765a-426e-a07a-9c4735ce8b05" />
-<preference name="admobBannerId" value="ca-app-pub-2712145761453335/8490260154" />
-<preference name="admobInterstitialId" value="ca-app-pub-2712145761453335/5480953432" />
-<preference name="admobAppId" value="ca-app-pub-2712145761453335~7694400848" />
+<preference name="onesignal" value="0885003e-f5e3-47f7-875a-0975183f1809" />
+<preference name="admobBannerId" value="ca-app-pub-2712145761453335/2847005133" />
+<preference name="admobInterstitialId" value="ca-app-pub-2712145761453335/3968515115" />
+<preference name="admobAppId" value="ca-app-pub-2712145761453335~6636685649" />
 <preference name="SplashScreenDelay" value="4000" /> 
 <preference name="SplashMaintainAspectRatio" value="true" /> 
 <preference name="ShowSplashScreenSpinner" value="false" /> 
 <preference name="FadeSplashScreenDuration" value="400" /> 
-<preference name="SplashScreenBackgroundColor" value="white" />
+<preference name="SplashScreenBackgroundColor" value="white" /> 
 <preference name="loadUrlTimeoutValue" value="70000" /> 
 <engine name="android" spec="^7.1.1" /> 
 <engine name="ios" spec="^4.5.5" /> 
