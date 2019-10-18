@@ -1,16 +1,11 @@
 {
   "background_color": "#FFF",
   "display": "standalone",
-  "name": "Hindi Hot songs",
-  "short_name": "Hindi Hot songs",
-  "version": "com.timesvideo.anuradhapaudwalsongs",
-  "author": "umar draz",
-  "icons": [
-    {
-      "src": "www/img/icon.png",
-      "type": "image/png",
-      "sizes": "undefinedxundefined"
-    }
-  ],
+  "name": "Appgenny",
+  "short_name": "Appgenny",
+  "version": "com.appgenny.latest",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "author": "Apache Cordova Team",
+  "icons": [],
   "start_url": "index.html"
 }

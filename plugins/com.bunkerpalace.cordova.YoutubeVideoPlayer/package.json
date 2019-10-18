@@ -19,7 +19,7 @@
   ],
   "_resolved": "git+https://github.com/JonSmart/CordovaYoutubeVideoPlayer.git#819fac1231022c05925b0f5391ec565e6a0f9907",
   "_spec": "https://github.com/JonSmart/CordovaYoutubeVideoPlayer",
-  "_where": "C:\\cordova\\newone",
+  "_where": "C:\\cordova\\appgenny\\appgennylatest",
   "bundleDependencies": false,
   "cordova": {
     "id": "com.bunkerpalace.cordova.YoutubeVideoPlayer",

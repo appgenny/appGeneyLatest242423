@@ -468,7 +468,7 @@ public class CordovaWebView extends WebView {
                 me.stopLoading();
                 LOG.e(TAG, "CordovaWebView: TIMEOUT ERROR!");
                 if (viewClient != null) {
-                    viewClient.onReceivedError(me, -6, "There is something issue, Please try again.", '');
+                    viewClient.onReceivedError(me, -6, "The connection to the server was unsuccessful.", url);
                 }
             }
         };

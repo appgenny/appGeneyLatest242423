@@ -1,4 +1,20 @@
 {
+  "com.bunkerpalace.cordova.YoutubeVideoPlayer": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/JonSmart/CordovaYoutubeVideoPlayer"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "com.santinowu.cordova.imagedownloader": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/Santino-Wu/cordova-plugin-imagedownloader.git"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
   "cordova-plugin-whitelist": {
     "source": {
       "type": "registry",
@@ -7,13 +23,26 @@
     "is_top_level": true,
     "variables": {}
   },
+  "cordova-android-play-services-gradle-release": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-android-play-services-gradle-release"
+    },
+    "is_top_level": true,
+    "variables": {
+      "PLAY-SERVICES-LOCATION": "17.0.0"
+    }
+  },
   "cordova-plugin-admobpro": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-admobpro"
+      "id": "cordova-plugin-admobpro@^2.49.0"
     },
     "is_top_level": true,
-    "variables": {}
+    "variables": {
+      "PLAY_SERVICES_VERSION": "17.0.0",
+      "ADMOB_APP_ID": "ca-app-pub-3756352465808334~2148080951"
+    }
   },
   "cordova-plugin-extension": {
     "source": {
@@ -23,34 +52,10 @@
     "is_top_level": false,
     "variables": {}
   },
-  "onesignal-cordova-plugin-pgb-compat": {
+  "cordova-plugin-app-version": {
     "source": {
       "type": "registry",
-      "id": "onesignal-cordova-plugin-pgb-compat"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
-  "onesignal-cordova-plugin": {
-    "source": {
-      "type": "registry",
-      "id": "onesignal-cordova-plugin@2.3.3"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
-  "cordova-plugin-statusbar": {
-    "source": {
-      "type": "registry",
-      "id": "https://github.com/apache/cordova-plugin-statusbar.git"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
-  "cordova-plugin-network-information": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-network-information"
+      "id": "cordova-plugin-app-version"
     },
     "is_top_level": true,
     "variables": {}
@@ -63,10 +68,10 @@
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-plugin-app-version": {
+  "cordova-plugin-network-information": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-app-version"
+      "id": "cordova-plugin-network-information"
     },
     "is_top_level": true,
     "variables": {}
@@ -79,32 +84,6 @@
     "is_top_level": true,
     "variables": {}
   },
-  "es6-promise-plugin": {
-    "source": {
-      "type": "registry",
-      "id": "es6-promise-plugin@^4.1.0"
-    },
-    "is_top_level": false,
-    "variables": {}
-  },
-  "com.bunkerpalace.cordova.YoutubeVideoPlayer": {
-    "source": {
-      "type": "registry",
-      "id": "https://github.com/JonSmart/CordovaYoutubeVideoPlayer"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
-  "com.santinowu.cordova.imagedownloader": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-imagedownloader"
-    },
-    "is_top_level": true,
-    "variables": {
-      "PHOTOLIBRARY_USAGE_DESCRIPTION": "explain why you require accessing Photo"
-    }
-  },
   "cordova-plugin-shortcuts-android": {
     "source": {
       "type": "registry",
@@ -113,18 +92,26 @@
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-android-play-services-gradle-release": {
+  "cordova-plugin-splashscreen": {
     "source": {
       "type": "registry",
-      "id": "cordova-android-play-services-gradle-release@^1.4.4"
+      "id": "cordova-plugin-splashscreen@5.0.3"
     },
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-plugin-splashscreen": {
+  "cordova-plugin-statusbar": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-splashscreen@5.0.2"
+      "id": "cordova-plugin-statusbar@2.4.3"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "onesignal-cordova-plugin": {
+    "source": {
+      "type": "registry",
+      "id": "onesignal-cordova-plugin@^2.6.0"
     },
     "is_top_level": true,
     "variables": {}

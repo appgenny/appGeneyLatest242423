@@ -1,7 +1,7 @@
 cordova.define("onesignal-cordova-plugin.OneSignal", function(require, exports, module) { /**
  * Modified MIT License
  * 
- * Copyright 2017 OneSignal
+ * Copyright 2019 OneSignal
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -32,6 +32,7 @@ var OneSignal = function() {
     var _iOSSettings = {};
     var _notificationReceivedDelegate = function() {};
     var _notificationOpenedDelegate = function() {};
+    var _inAppMessageClickDelegate = function () {};
 };
 
 OneSignal.prototype.OSInFocusDisplayOption = {
@@ -71,6 +72,11 @@ OneSignal.prototype.handleNotificationOpened = function(handleNotificationOpened
     return this;
 };
 
+OneSignal.prototype.handleInAppMessageClicked = function(handler) {
+    OneSignal._inAppMessageClickDelegate = handler;
+    return this;
+}
+
 OneSignal.prototype.inFocusDisplaying = function(display) {
     OneSignal._displayOption = display;
     return this;
@@ -89,7 +95,7 @@ OneSignal.prototype.endInit = function() {
     //Pass notification received handler
     cordova.exec(OneSignal._notificationReceivedDelegate, function(){}, "OneSignalPush", "setNotificationReceivedHandler", []);
     cordova.exec(OneSignal._notificationOpenedDelegate, function(){}, "OneSignalPush", "setNotificationOpenedHandler", []);
-
+    cordova.exec(OneSignal._inAppMessageClickDelegate, function() {}, "OneSignalPush", "setInAppMessageClickHandler", []);
     //Call Init
     cordova.exec(function() {}, function(){}, "OneSignalPush", "init", [OneSignal._appID, OneSignal._googleProjectNumber, OneSignal._iOSSettings, OneSignal._displayOption]);
 };
@@ -278,6 +284,55 @@ OneSignal.prototype.userProvidedPrivacyConsent = function(callback) {
    cordova.exec(function() {}, function() {}, "OneSignalPush", "provideUserConsent", [granted]);
  }
 
+ OneSignal.prototype.setExternalUserId = function(externalId) {
+    cordova.exec(function() {}, function() {}, "OneSignalPush", "setExternalUserId", [externalId]);
+ }
+
+ OneSignal.prototype.removeExternalUserId = function() {
+    cordova.exec(function() {}, function() {}, "OneSignalPush", "removeExternalUserId", []);
+ }
+
+/**
+ * in app messaging
+ */
+
+OneSignal.prototype.addTriggers = function(triggers) {
+    Object.keys(triggers).forEach((key)=>{
+        // forces values to be string types
+        if (typeof triggers[key] !== "string") {
+            triggers[key] = JSON.stringify(triggers[key]);
+        }
+    });
+    cordova.exec(function() {}, function() {}, "OneSignalPush", "addTriggers", [triggers]);
+}
+
+OneSignal.prototype.addTrigger = function(key, value) {
+    var obj = {};
+    obj[key] = value;
+    OneSignal.prototype.addTriggers(obj);
+}
+
+OneSignal.prototype.removeTriggerForKey = function(key) {
+    OneSignal.prototype.removeTriggersForKeys([key]);
+}
+
+OneSignal.prototype.removeTriggersForKeys = function(keys) {
+    if (!Array.isArray(keys)){
+        console.error("OneSignal: removeTriggersForKeys: argument must be of type Array")
+    }
+    cordova.exec(function() {}, function() {}, "OneSignalPush", "removeTriggersForKeys", [keys]);
+}
+
+OneSignal.prototype.getTriggerValueForKey = function(key, callback) {
+    var getTriggerValueForKeyCallback = function(obj) {
+      callback(obj.value);
+    };
+    cordova.exec(getTriggerValueForKeyCallback, function() {}, "OneSignalPush", "getTriggerValueForKey", [key]);
+}
+
+OneSignal.prototype.pauseInAppMessages = function(pause) {
+    cordova.exec(function() {}, function() {}, "OneSignalPush", "pauseInAppMessages", [pause]);
+}
 
 //-------------------------------------------------------------------
 
