@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.puretunes.rajeshkhanna_dilipkumar" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.puretunes.rajeshkhanna_dilipkumar" version="1.0.8" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
 <name>Free Old Hindi Songs PT</name>
 <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author>
 <icon src="www/img/icon.png" />
