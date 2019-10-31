@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.puretunes.freefullmovies" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-<name>Free Full Movies Pt</name>
+<widget id="com.musictechno.pawansingh" version="1.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<name>Bhojpuri Gana  MT</name>
 <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author>
 <icon src="www/img/icon.png" />
 <content src="index.html" />
@@ -34,11 +34,11 @@
 <preference name="android-build-tool" value="gradle" /> 
 <preference name="StatusBarOverlaysWebView" value="true" /> 
 <preference name="phonegap-version" value="cli-9.0.0" /> 
-<preference name="postRows" value="3" /> 
-<preference name="onesignal" value="78136f06-01f6-41f0-a211-29fe98478dda" /> 
-<preference name="admobBannerId" value="ca-app-pub-2712145761453335/4801931622" /> 
-<preference name="admobInterstitialId" value="ca-app-pub-2712145761453335/9840643497" /> 
-<preference name="admobAppId" value="ca-app-pub-2712145761453335~6306584981" /> 
+<preference name="postRows" value="4" /> 
+<preference name="onesignal" value="1a60b38c-98d8-473a-9c07-f0c6b59793d0" /> 
+<preference name="admobBannerId" value="ca-app-pub-3489810328478410/8201099741" /> 
+<preference name="admobInterstitialId" value="ca-app-pub-3489810328478410/6385509091" /> 
+<preference name="admobAppId" value="ca-app-pub-3489810328478410~8983752273" /> 
 <preference name="SplashScreenDelay" value="4000" /> 
 <preference name="SplashMaintainAspectRatio" value="true" /> 
 <preference name="ShowSplashScreenSpinner" value="false" /> 
@@ -54,7 +54,7 @@
 </plugin>
 <plugin name="cordova-plugin-admobpro" spec="^2.49.0">
 <variable name="PLAY_SERVICES_VERSION" value="16.0.0" />
-<variable name="ADMOB_APP_ID" value="ca-app-pub-2712145761453335~6306584981" />
+<variable name="ADMOB_APP_ID" value="ca-app-pub-3489810328478410~8983752273" />
 </plugin>
 <plugin name="cordova-plugin-app-version" spec="^0.1.9" />
 <plugin name="cordova-plugin-customconfigparameters" spec="^3.0.0" />
