@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.hotapp.bellydance" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-<name>Belly Dance</name>
+<widget id="com.wexet.hindifilmvideo" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<name>Hindi Film Video wt </name>
 <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author>
 <icon src="www/img/icon.png" />
 <content src="index.html" />
@@ -35,10 +35,10 @@
 <preference name="StatusBarOverlaysWebView" value="true" /> 
 <preference name="phonegap-version" value="cli-9.0.0" /> 
 <preference name="postRows" value="1" /> 
-<preference name="onesignal" value="facdaf5d-a905-44b6-87fb-f71c9c82c36d" /> 
-<preference name="admobBannerId" value="ca-app-pub-1539405961106167/5472479453" /> 
-<preference name="admobInterstitialId" value="ca-app-pub-1539405961106167/1776777022" /> 
-<preference name="admobAppId" value="ca-app-pub-1539405961106167~4621613974" /> 
+<preference name="onesignal" value="cb40d915-0d71-4a6f-9ff3-f137d679e8d8" /> 
+<preference name="admobBannerId" value="ca-app-pub-7201251550135791/1129994511" /> 
+<preference name="admobInterstitialId" value="ca-app-pub-7201251550135791/4686096146" /> 
+<preference name="admobAppId" value="ca-app-pub-7201251550135791~5835526287" /> 
 <preference name="SplashScreenDelay" value="4000" /> 
 <preference name="SplashMaintainAspectRatio" value="true" /> 
 <preference name="ShowSplashScreenSpinner" value="false" /> 
@@ -54,7 +54,7 @@
 </plugin>
 <plugin name="cordova-plugin-admobpro" spec="^2.49.0">
 <variable name="PLAY_SERVICES_VERSION" value="16.0.0" />
-<variable name="ADMOB_APP_ID" value="ca-app-pub-1539405961106167~4621613974" />
+<variable name="ADMOB_APP_ID" value="ca-app-pub-7201251550135791~5835526287" />
 </plugin>
 <plugin name="cordova-plugin-app-version" spec="^0.1.9" />
 <plugin name="cordova-plugin-customconfigparameters" spec="^3.0.0" />
