@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.kidzezone.poemsforkids" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-<name>Poems For Kids</name>
+<widget id="com.hotapp.selenagomeznewsongs" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<name>Selena Gomez Songs</name>
 <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author>
 <icon src="www/img/icon.png" />
 <content src="index.html" />
@@ -34,11 +34,11 @@
 <preference name="android-build-tool" value="gradle" /> 
 <preference name="StatusBarOverlaysWebView" value="true" /> 
 <preference name="phonegap-version" value="cli-9.0.0" /> 
-<preference name="postRows" value="2" /> 
-<preference name="onesignal" value="3c5e8d58-8813-4808-b5fb-e9801dae95f4" /> 
-<preference name="admobBannerId" value="ca-app-pub-1441176907895582/2645266484" /> 
-<preference name="admobInterstitialId" value="ca-app-pub-1441176907895582/9426652479" /> 
-<preference name="admobAppId" value="ca-app-pub-1441176907895582~3256772470" /> 
+<preference name="postRows" value="1" /> 
+<preference name="onesignal" value="1ee80c80-727c-4b68-a830-3504eb1ae98f" /> 
+<preference name="admobBannerId" value="ca-app-pub-1539405961106167/5911844028" /> 
+<preference name="admobInterstitialId" value="ca-app-pub-1539405961106167/2220011028" /> 
+<preference name="admobAppId" value="ca-app-pub-1539405961106167~1522346332" /> 
 <preference name="SplashScreenDelay" value="4000" /> 
 <preference name="SplashMaintainAspectRatio" value="true" /> 
 <preference name="ShowSplashScreenSpinner" value="false" /> 
@@ -54,7 +54,7 @@
 </plugin>
 <plugin name="cordova-plugin-admobpro" spec="^2.49.0">
 <variable name="PLAY_SERVICES_VERSION" value="16.0.0" />
-<variable name="ADMOB_APP_ID" value="ca-app-pub-1441176907895582~3256772470" />
+<variable name="ADMOB_APP_ID" value="ca-app-pub-1539405961106167~1522346332" />
 </plugin>
 <plugin name="cordova-plugin-app-version" spec="^0.1.9" />
 <plugin name="cordova-plugin-customconfigparameters" spec="^3.0.0" />
