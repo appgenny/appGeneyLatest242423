@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.puretunes.oldhindimovies" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-<name>old hindi movies</name>
+<widget id="com.puretunes.mohammadrafisong" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<name>Mohammad Rafi All Song PT</name>
 <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author>
 <icon src="www/img/icon.png" />
 <content src="index.html" />
@@ -35,10 +35,10 @@
 <preference name="StatusBarOverlaysWebView" value="true" /> 
 <preference name="phonegap-version" value="cli-9.0.0" /> 
 <preference name="postRows" value="3" /> 
-<preference name="onesignal" value="da3ea762-ee33-46bb-9c12-7388a393bb83" /> 
-<preference name="admobBannerId" value="ca-app-pub-2712145761453335/2564840977" /> 
-<preference name="admobInterstitialId" value="ca-app-pub-2712145761453335/7494212958" /> 
-<preference name="admobAppId" value="ca-app-pub-2712145761453335~9525479924" /> 
+<preference name="onesignal" value="287c139e-7a22-4caa-8d9e-c2b436802ff4" /> 
+<preference name="admobBannerId" value="ca-app-pub-2712145761453335/8499693935" /> 
+<preference name="admobInterstitialId" value="ca-app-pub-2712145761453335/4560448924" /> 
+<preference name="admobAppId" value="ca-app-pub-2712145761453335~7298292905" /> 
 <preference name="SplashScreenDelay" value="4000" /> 
 <preference name="SplashMaintainAspectRatio" value="true" /> 
 <preference name="ShowSplashScreenSpinner" value="false" /> 
@@ -54,7 +54,7 @@
 </plugin>
 <plugin name="cordova-plugin-admobpro" spec="^2.49.0">
 <variable name="PLAY_SERVICES_VERSION" value="16.0.0" />
-<variable name="ADMOB_APP_ID" value="ca-app-pub-2712145761453335~9525479924" />
+<variable name="ADMOB_APP_ID" value="ca-app-pub-2712145761453335~7298292905" />
 </plugin>
 <plugin name="cordova-plugin-app-version" spec="^0.1.9" />
 <plugin name="cordova-plugin-customconfigparameters" spec="^3.0.0" />
