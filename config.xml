@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.musictechno.lataandrafioldsongs" version="1.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-<name>Lata And Rafi Old Songs [Techno]</name>
+<widget id="com.musictechno.lataandrafisadabaharoldhindisongs" version="1.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<name>Lata And Rafi Sadabahar Old Hindi Songs [Techno]</name>
 <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author>
 <icon src="www/img/icon.png" />
 <content src="index.html" />
@@ -35,7 +35,7 @@
 <preference name="StatusBarOverlaysWebView" value="true" /> 
 <preference name="phonegap-version" value="cli-9.0.0" /> 
 <preference name="postRows" value="4" /> 
-<preference name="onesignal" value="7de063db-4172-4640-8817-7a231730e3de" /> 
+<preference name="onesignal" value="" /> 
 <preference name="admobBannerId" value="ca-app-pub-8415036362064303/9940143397" /> 
 <preference name="admobInterstitialId" value="ca-app-pub-8415036362064303/1595228449" /> 
 <preference name="admobAppId" value="ca-app-pub-8415036362064303~5292637168" /> 
