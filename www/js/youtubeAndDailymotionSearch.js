@@ -1,10 +1,10 @@
 function getyoutubeVideoByplaylistSearch(e, o) {
-    var response = JSON.parse((localStorage.getItem("item")));
+    var response=JSON.parse((localStorage.getItem("item")));
     var youtubekey = response[6];
     var t = {
         async: !0,
         crossDomain: !0,
-        url: "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet%2CcontentDetails&maxResults=" + o + "&playlistId=" + e + "&key=AIzaSyAxfR8e3JY8Xg6WNxmdEiko6p7i0xoKxDU&videoEmbeddable=true&videoSyndicated=true",
+        url: "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet%2CcontentDetails&maxResults=" + o + "&playlistId=" + e + "&key="+youtubekey+"&videoEmbeddable=true&videoSyndicated=true",
         method: "GET",
         headers: {
             "cache-control": "no-cache",
@@ -26,8 +26,8 @@ function getyoutubeVideoByplaylistSearch(e, o) {
 }
 
 function getyoutubeVideoBySearch(e, o, t) {
-    var youtubeKey = JSON.parse(localStorage.getItem("item"))[6];
-    var i = encodeURI("https://www.googleapis.com/youtube/v3/search?part=snippet&q=" + e + "&type=" + o + "&maxResults=" + t + "&key=AIzaSyAxfR8e3JY8Xg6WNxmdEiko6p7i0xoKxDU&videoEmbeddable=true&videoSyndicated=true");
+     var youtubeKey = $.trim(JSON.parse(localStorage.getItem("item"))[6]);
+    var i = encodeURI("https://www.googleapis.com/youtube/v3/search?part=snippet&q=" + e + "&type=" + o + "&maxResults=" + t + "&key="+youtubeKey+"&videoEmbeddable=true&videoSyndicated=true");
     $.ajax({
         type: "GET",
         url: i,
