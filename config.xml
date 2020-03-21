@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.hotapp.freefullmovies" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.hotapp.freefullmovie" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
 <name>Movies Hub </name>
 <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author>
 <icon src="www/img/icon.png" />
@@ -35,7 +35,7 @@
 <preference name="StatusBarOverlaysWebView" value="true" /> 
 <preference name="phonegap-version" value="cli-9.0.0" /> 
 <preference name="postRows" value="1" /> 
-<preference name="onesignal" value="b1bb435b-af21-4faa-b9fd-b7d49dda9f19" /> 
+<preference name="onesignal" value="6185abde-2c5d-43d0-ab09-603c515104d5" /> 
 <preference name="admobBannerId" value="ca-app-pub-1539405961106167/8532814454" /> 
 <preference name="admobInterstitialId" value="ca-app-pub-1539405961106167/9654324435" /> 
 <preference name="admobAppId" value="ca-app-pub-1539405961106167~9732902402" /> 
