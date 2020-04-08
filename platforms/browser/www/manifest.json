@@ -1,11 +1,16 @@
 {
   "background_color": "#FFF",
   "display": "standalone",
-  "name": "Appgenny",
-  "short_name": "Appgenny",
-  "version": "com.appgenny.latest",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
-  "author": "Apache Cordova Team",
-  "icons": [],
+  "name": "Old Hindi Songs",
+  "short_name": "Old Hindi Songs",
+  "version": "com.ringtone.rajeshkhanna_dilipkumar_rajendrakumar_dharmendra",
+  "author": "umar draz",
+  "icons": [
+    {
+      "src": "www/img/icon.png",
+      "type": "image/png",
+      "sizes": "undefinedxundefined"
+    }
+  ],
   "start_url": "index.html"
 }
