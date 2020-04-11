@@ -7,12 +7,9 @@ function openVideoModel(e) {
     var i = JSON.parse(localStorage.getItem("item"));
     if (localStorage.getItem("counterAds") == (a = i[2])) {
       var l = $(e).attr("id");
-      //   localStorage.setItem("openVideoModelId", l),
-      //     localStorage.setItem("counterAds", "0"),
-      //     showIndustrialAd();
-      //test purpose
-      openModel((l = $(e).attr("id")));
-      //test purpose
+        localStorage.setItem("openVideoModelId", l),
+          localStorage.setItem("counterAds", "0"),
+          showIndustrialAd();
     } else {
       openModel((l = $(e).attr("id")));
     }
