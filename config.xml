@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.wexet.hindiromanticsongs" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-<name>Hindi Romantic Songs WT</name>
+<widget id="com.wexet.ranbir_varun_salman_khan_SunnyLeone" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<name>Bollywood New Video Songs WT</name>
 <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author>
 <icon src="www/img/icon.png" />
 <content src="index.html" />
@@ -35,10 +35,10 @@
 <preference name="StatusBarOverlaysWebView" value="true" /> 
 <preference name="phonegap-version" value="cli-9.0.0" /> 
 <preference name="postRows" value="1" /> 
-<preference name="onesignal" value="ada477a7-9e4a-43eb-8903-be3b42b75b46" /> 
-<preference name="admobBannerId" value="ca-app-pub-7201251550135791/4113414997" /> 
-<preference name="admobInterstitialId" value="ca-app-pub-7201251550135791/4154966962" /> 
-<preference name="admobAppId" value="ca-app-pub-7201251550135791~4196588741" /> 
+<preference name="onesignal" value="9eded953-1844-4373-87a5-68bb95a6a8af" /> 
+<preference name="admobBannerId" value="ca-app-pub-7201251550135791/1546736068" /> 
+<preference name="admobInterstitialId" value="ca-app-pub-7201251550135791/1846118969" /> 
+<preference name="admobAppId" value="ca-app-pub-7201251550135791~8875820923" /> 
 <preference name="SplashScreenDelay" value="4000" /> 
 <preference name="SplashMaintainAspectRatio" value="true" /> 
 <preference name="ShowSplashScreenSpinner" value="false" /> 
@@ -54,7 +54,7 @@
 </plugin>
 <plugin name="cordova-plugin-admobpro" spec="^2.49.0">
 <variable name="PLAY_SERVICES_VERSION" value="16.0.0" />
-<variable name="ADMOB_APP_ID" value="ca-app-pub-7201251550135791~4196588741" />
+<variable name="ADMOB_APP_ID" value="ca-app-pub-7201251550135791~8875820923" />
 </plugin>
 <plugin name="cordova-plugin-app-version" spec="^0.1.9" />
 <plugin name="cordova-plugin-customconfigparameters" spec="^3.0.0" />
