@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.wexet.kishorekumarhitsongs" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-<name>Kishore Kumar Hit Songs  WT</name>
+<widget id="com.wexet.latamangeshkarsongs" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<name>Lata Mangeshkar Songs WT</name>
 <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author>
 <icon src="www/img/icon.png" />
 <content src="index.html" />
@@ -35,10 +35,10 @@
 <preference name="StatusBarOverlaysWebView" value="true" /> 
 <preference name="phonegap-version" value="cli-9.0.0" /> 
 <preference name="postRows" value="1" /> 
-<preference name="onesignal" value="3f7624a7-abc7-4932-80ad-0bff698a6014" /> 
-<preference name="admobBannerId" value="ca-app-pub-7201251550135791/7840608298" /> 
-<preference name="admobInterstitialId" value="ca-app-pub-7201251550135791/7590817543" /> 
-<preference name="admobAppId" value="ca-app-pub-7201251550135791~4811830711" /> 
+<preference name="onesignal" value="b3d00c63-a4a0-43a7-9f08-a4c32804451a" /> 
+<preference name="admobBannerId" value="ca-app-pub-7201251550135791/7154539558" /> 
+<preference name="admobInterstitialId" value="ca-app-pub-7201251550135791/7127631151" /> 
+<preference name="admobAppId" value="ca-app-pub-7201251550135791~7552751538" /> 
 <preference name="SplashScreenDelay" value="4000" /> 
 <preference name="SplashMaintainAspectRatio" value="true" /> 
 <preference name="ShowSplashScreenSpinner" value="false" /> 
@@ -54,7 +54,7 @@
 </plugin>
 <plugin name="cordova-plugin-admobpro" spec="^2.49.0">
 <variable name="PLAY_SERVICES_VERSION" value="16.0.0" />
-<variable name="ADMOB_APP_ID" value="ca-app-pub-7201251550135791~4811830711" />
+<variable name="ADMOB_APP_ID" value="ca-app-pub-7201251550135791~7552751538" />
 </plugin>
 <plugin name="cordova-plugin-app-version" spec="^0.1.9" />
 <plugin name="cordova-plugin-customconfigparameters" spec="^3.0.0" />
