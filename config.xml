@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.ringtone.dharmendra_rajendrakumar" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-<name>Mohammad Rafi Hit Songs RT</name>
+<widget id="com.ringtone.oldhindisongsfreedownload" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<name>Mohammed Aziz Hit Songs RT</name>
 <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author>
 <icon src="www/img/icon.png" />
 <content src="index.html" />
@@ -35,10 +35,10 @@
 <preference name="StatusBarOverlaysWebView" value="true" /> 
 <preference name="phonegap-version" value="cli-9.0.0" /> 
 <preference name="postRows" value="3" /> 
-<preference name="onesignal" value="b99f4c34-a488-4e3f-a031-eec6165063d8" /> 
-<preference name="admobBannerId" value="ca-app-pub-4035384022723538/7169583123" /> 
-<preference name="admobInterstitialId" value="ca-app-pub-4035384022723538/3230338113" /> 
-<preference name="admobAppId" value="ca-app-pub-4035384022723538~3773263597" /> 
+<preference name="onesignal" value="ab8a397f-0a52-4417-a4a1-04fca7346d7d" /> 
+<preference name="admobBannerId" value="ca-app-pub-4035384022723538/9395403168" /> 
+<preference name="admobInterstitialId" value="ca-app-pub-4035384022723538/8525174622" /> 
+<preference name="admobAppId" value="ca-app-pub-4035384022723538~3789575463" /> 
 <preference name="SplashScreenDelay" value="4000" /> 
 <preference name="SplashMaintainAspectRatio" value="true" /> 
 <preference name="ShowSplashScreenSpinner" value="false" /> 
@@ -54,7 +54,7 @@
 </plugin>
 <plugin name="cordova-plugin-admobpro" spec="^2.49.0">
 <variable name="PLAY_SERVICES_VERSION" value="16.0.0" />
-<variable name="ADMOB_APP_ID" value="ca-app-pub-4035384022723538~3773263597" />
+<variable name="ADMOB_APP_ID" value="ca-app-pub-4035384022723538~3789575463" />
 </plugin>
 <plugin name="cordova-plugin-app-version" spec="^0.1.9" />
 <plugin name="cordova-plugin-customconfigparameters" spec="^3.0.0" />
