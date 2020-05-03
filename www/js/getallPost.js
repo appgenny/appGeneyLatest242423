@@ -16,7 +16,11 @@ function getAllPost(postSize, pakgeName) {
       var subcategoryId = myresponse.SubcategoryId;
       var $title = myresponse.Title;
       if (myresponse.Active == true) {
-        if (myresponse.Type == "Video") {
+        if (
+          myresponse.Type == "Video" &&
+          (myresponse.RedirectApp == "" || myresponse.RedirectApp == null) &&
+          (myresponse.WebUrl == "" || myresponse.WebUrl == null)
+        ) {
           html +=
             '<a class="single_post_view" data-toggle="modal" id="' +
             myresponse.Id +
@@ -132,7 +136,12 @@ function getAllPost(postSize, pakgeName) {
         }
 
         //redierect app
-        if (myresponse.Type == "Redirect") {
+        if (
+          myresponse.Type == "Redirect" ||
+          (myresponse.Type == "Video" &&
+            myresponse.RedirectApp != "" &&
+            myresponse.RedirectApp != null)
+        ) {
           if (myresponse.RedirectApp != "") {
             html +=
               '<a class="single_post_view" webLink="https://play.google.com/store/apps/details?id=' +
@@ -188,7 +197,12 @@ function getAllPost(postSize, pakgeName) {
           }
         }
 
-        if (myresponse.Type == "WebUrl") {
+        if (
+          myresponse.Type == "WebUrl" ||
+          (myresponse.Type == "Video" &&
+            myresponse.WebUrl != "" &&
+            myresponse.WebUrl != null)
+        ) {
           if (myresponse.WebUrl != "") {
             html +=
               '<a class="single_post_view" webLink="' +
