@@ -6,6 +6,7 @@ function mainarea() {
     StatusBar.show();
   } else {
     StatusBar.hide();
+    localStorage.setItem("openWebUrl", "");
     localStorage.setItem("openVideoModelId", "0");
     localStorage.setItem("runVideoId", "0");
     localStorage.setItem("category_id_wallpaper", "0");
