@@ -88,7 +88,7 @@ function initAd() {
       var webUrlLinkExecuteAfterAdmob = localStorage.getItem("openWebUrl");
       if (webUrlLinkExecuteAfterAdmob != "") {
         window.open(webUrlLinkExecuteAfterAdmob, "_blank");
-        localStorage.setItem("category_id_wallpaper", "");
+        localStorage.setItem("openWebUrl", "");
       }
       //weblink or redirect
 
@@ -158,7 +158,7 @@ function initAd() {
       var webUrlLinkExecuteAfterAdmob = localStorage.getItem("openWebUrl");
       if (webUrlLinkExecuteAfterAdmob != "") {
         window.open(webUrlLinkExecuteAfterAdmob, "_blank");
-        localStorage.setItem("category_id_wallpaper", "");
+        localStorage.setItem("openWebUrl", "");
       }
       //weblink or redirect
 
@@ -228,7 +228,7 @@ function allReloadedData() {
     var webUrlLinkExecuteAfterAdmob = localStorage.getItem("openWebUrl");
     if (webUrlLinkExecuteAfterAdmob != "") {
       window.open(webUrlLinkExecuteAfterAdmob, "_blank");
-      localStorage.setItem("category_id_wallpaper", "");
+      localStorage.setItem("openWebUrl", "");
     }
     //weblink or redirect
 
