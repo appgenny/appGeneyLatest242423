@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.kidzezone.livesportstv" version="1.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-<name>Live Sports Tv </name>
+<widget id="com.kidzezone.animatedmovies" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<name>Animated Movies</name>
 <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author>
 <icon src="www/img/icon.png" />
 <content src="index.html" />
@@ -35,10 +35,10 @@
 <preference name="StatusBarOverlaysWebView" value="true" /> 
 <preference name="phonegap-version" value="cli-9.0.0" /> 
 <preference name="postRows" value="2" /> 
-<preference name="onesignal" value="3b2a7abc-5a26-4f0a-8f78-2ed6a871163a" /> 
-<preference name="admobBannerId" value="ca-app-pub-8415036362064303/1472422986" /> 
-<preference name="admobInterstitialId" value="ca-app-pub-8415036362064303/2621853129" /> 
-<preference name="admobAppId" value="ca-app-pub-8415036362064303~9982286639" /> 
+<preference name="onesignal" value="a3310320-fcd8-4cbe-bdc4-35a5e9b8188b" /> 
+<preference name="admobBannerId" value="ca-app-pub-8415036362064303/2222877771" /> 
+<preference name="admobInterstitialId" value="ca-app-pub-8415036362064303/5970551096" /> 
+<preference name="admobAppId" value="ca-app-pub-8415036362064303~9917534960" /> 
 <preference name="SplashScreenDelay" value="4000" /> 
 <preference name="SplashMaintainAspectRatio" value="true" /> 
 <preference name="ShowSplashScreenSpinner" value="false" /> 
@@ -54,7 +54,7 @@
 </plugin>
 <plugin name="cordova-plugin-admobpro" spec="^2.49.0">
 <variable name="PLAY_SERVICES_VERSION" value="16.0.0" />
-<variable name="ADMOB_APP_ID" value="ca-app-pub-8415036362064303~9982286639" />
+<variable name="ADMOB_APP_ID" value="ca-app-pub-8415036362064303~9917534960" />
 </plugin>
 <plugin name="cordova-plugin-app-version" spec="^0.1.9" />
 <plugin name="cordova-plugin-customconfigparameters" spec="^3.0.0" />
