@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.hotline.livecricket" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-<name>Live Cricket Match</name>
+<widget id="com.hotline.livecrickethdtv" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<name>Live Cricket Hd Tv </name>
 <author email="umardraz651@gmail.com" href="http://cordova.io">umar draz</author>
 <icon src="www/img/icon.png" />
 <content src="index.html" />
@@ -35,7 +35,7 @@
 <preference name="StatusBarOverlaysWebView" value="true" /> 
 <preference name="phonegap-version" value="cli-9.0.0" /> 
 <preference name="postRows" value="2" /> 
-<preference name="onesignal" value="2f5b7d37-58a2-4548-ab1d-785b4f97d876" /> 
+<preference name="onesignal" value="aa8e5985-d7a5-42ab-927d-12a77bee4bf9" /> 
 <preference name="admobBannerId" value="ca-app-pub-3489810328478410/5290236654" /> 
 <preference name="admobInterstitialId" value="ca-app-pub-3489810328478410/2338438551" /> 
 <preference name="admobAppId" value="ca-app-pub-3489810328478410~1852381065" /> 
